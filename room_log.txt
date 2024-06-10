@@ -1,0 +1,10 @@
+1,isVacant,none,none
+2,isVacant,none,none
+3,isVacant,none,none
+4,isVacant,none,none
+5,isVacant,none,none
+6,isVacant,none,none
+7,isVacant,none,none
+8,isVacant,none,none
+9,isVacant,none,none
+10,isVacant,none,none
