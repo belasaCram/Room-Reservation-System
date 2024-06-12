@@ -1,5 +1,6 @@
 package Manager;
 
+import Main.RoomReservationMain;
 import Objects.Account;
 import Objects.Room;
 import java.io.*;
@@ -45,6 +46,8 @@ public class ReservationManager {
 
     public void showMenu() {
         Scanner read = new Scanner(System.in);
+        RoomReservationMain main = new RoomReservationMain();
+
         while (true) {
             try {
                 System.out.println("\n----------- Menu -----------");
@@ -61,7 +64,7 @@ public class ReservationManager {
                     case 3 -> {
                         saveRoom();
                         System.out.println("Exiting...");
-                        return;
+                        main.start();
                     }
                     default -> System.out.println("Invalid choice. Choose between 1 and 3 only.");
                 }

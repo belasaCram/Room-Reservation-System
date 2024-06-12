@@ -118,9 +118,9 @@ public class LoginManager {
 
     public void loginUser() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("\nLogin");
 
         while(true){
-            System.out.println("Login");
             System.out.print("Enter email: ");
             String username = scanner.nextLine();
             System.out.print("Enter password: ");

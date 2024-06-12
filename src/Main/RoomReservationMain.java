@@ -1,9 +1,18 @@
+package Main;
+
 import Manager.LoginManager;
 
 import java.util.Scanner;
 
-public class Main {
+public class RoomReservationMain {
+
+
     public static void main(String[] args) {
+        RoomReservationMain main = new RoomReservationMain();
+        main.start();
+    }
+
+    public void start(){
         Scanner read = new Scanner(System.in);
         LoginManager loginManager = new LoginManager();
 
